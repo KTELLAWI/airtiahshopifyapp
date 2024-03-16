@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "700202719187",
+    "project_id": "airtiahapp",
+    "storage_bucket": "airtiahapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700202719187:android:456450b4f4538845890126",
+        "android_client_info": {
+          "package_name": "com.airtiahfurniture.airtiahapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1H5wIDszwtGzVzuyJZHsHet64TfMTsdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
