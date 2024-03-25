@@ -1,74 +1,79 @@
 {
     "HorizonLayout":[
+        {
+            "showCart": true,
+            "layout": "logo",
+            "showMenu": false,
+            "showNotification": true,
+            "menuIcon": {
+                "fontFamily": "CupertinoIcons",
+                "name": "circle_grid_3x3_fill"
+            },
+            "showLogo": true,
+            "showSearch": true
+        },
     {
-    "showCart":true,
-    "layout":"logo",
-    "showMenu":false,
-    "showNotification":true,
-    "menuIcon":{
-    "fontFamily":"CupertinoIcons",
-    "name":"circle_grid_3x3_fill"
-    },
-    "showLogo":true,
-    "showSearch":false
-    },
-    {
-    "layout":"bannerImage",
-    "design":"swiper",
+    "boxShadow":null,
+    "parallax":false,
+    "doubleTapToFullScreen":false,
+    "enableBackground":false,
+    "isHorizontal":false,
     "fit":"fitWidth",
+    "marginRight":null,
+    "isBlur":false,
+    "parallaxImageRatio":1.2,
+    "showNumber":false,
+    "design":"custom",
+    "showBackground":false,
+    "radius":32.4,
+    "enableTimeIndicator":true,
+    "intervalTime":3,
+    "padding":15.1,
+    "upHeight":0,
+    "pageIndicatorType":"line",
+    "isSlider":true,
+    "isSoundOn":false,
+    "enableParallax":false,
+    "autoPlayVideo":false,
     "marginLeft":null,
+    "layout":"bannerImage",
+    "marginBottom":0,
+    "autoPlay":false,
     "items":[
     {
-    "image":"https://trello.com/1/cards/63587806a57fae002ab4b20f/attachments/6601978737eb45ba4d3fc44a/download/813McCG0x0L._AC_SL1500_.jpg",
-    "showSubcategory":false,
+    "image":"https://www.topvaluereviews.net/wp-content/uploads/2019/04/81TlKhvnSDL._SL1500_.jpg",
     "bannerWithProduct":false,
+    "showSubcategory":false,
+    "video":"",
     "defaultShowProduct":false,
-    "products":[],
-    "category":"gid://shopify/Collection/459367678229",
-    "video":""
+    "products":[]
     },
     {
-    "image":"https://trello.com/1/cards/63587806a57fae002ab4b20f/attachments/660197997c09f234fb503eb4/download/OIP_(1).jpg",
-    "showSubcategory":false,
+    "image":"https://www.topvaluereviews.net/wp-content/uploads/2019/04/81TlKhvnSDL._SL1500_.jpg",
     "bannerWithProduct":false,
+    "showSubcategory":false,
+    "video":"",
     "defaultShowProduct":false,
-    "products":[],
-    "category":"gid://shopify/Collection/459367678229",
-    "video":""
+    "products":[]
     },
     {
-    "image":"https://trello.com/1/cards/63587806a57fae002ab4b20f/attachments/660197d0aab533f2e9575f3c/download/OIP_(1).jpg",
-    "showSubcategory":false,
+    "image":"https://www.topvaluereviews.net/wp-content/uploads/2019/04/81TlKhvnSDL._SL1500_.jpg",
     "bannerWithProduct":false,
+    "showSubcategory":false,
+    "video":"",
     "defaultShowProduct":false,
-    "products":[],
-    "category":"gid://shopify/Collection/459367678229",
-    "video":""
+    "products":[]
+    },
+    {
+    "image":"https://inspireui.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81c15a81-af1c-4098-a5a1-8b8a21f58441%2Fbanner1.png?table=block&id=a8f3b172-92c3-4d05-9890-0c84a4a50488&spaceId=adfc7c52-309f-45b9-8822-60b33369c98c&width=2000&userId=&cache=v2",
+    "bannerWithProduct":false,
+    "showSubcategory":false,
+    "video":"",
+    "defaultShowProduct":false,
+    "products":[]
     }
     ],
-    "marginBottom":0,
-    "marginRight":null,
-    "marginTop":0,
-    "radius":20,
-    "padding":0,
-    "enableParallax":false,
-    "parallaxImageRatio":1.2,
-    "isHorizontal":false,
-    "enableBackground":false,
-    "isSlider":true,
-    "autoPlay":false,
-    "intervalTime":3,
-    "showNumber":false,
-    "isBlur":false,
-    "showBackground":false,
-    "upHeight":0,
-    "isSoundOn":false,
-    "enableTimeIndicator":true,
-    "autoPlayVideo":false,
-    "doubleTapToFullScreen":false,
-    "pageIndicatorType":"line",
-    "parallax":false,
-    "boxShadow":null
+    "marginTop":0
     },
     {
     "layout":"spacer",
@@ -112,16 +117,41 @@
     "endIndent":126
     },
     {
-    "layout":"category",
+    "line":false,
     "type":"image",
-    "wrap":false,
     "showShortDescription":true,
-    "size":1,
-    "radius":0,
+    "marginRight":0,
+    "imageSpacing":1,
     "spacing":12,
+    "gradientStyle":false,
+    "itemSize":{
+    "width":140.42105263157896,
+    "height":264.63157894736855
+    },
+    "radius":61,
+    "border":0,
+    "imageBoxFit":"fill",
+    "labelFontSize":18,
+    "separateWidth":24,
+    "noBackground":false,
+    "enableBorder":false,
+    "imageBorderColor":"ff189877",
+    "marginX":0,
+    "marginLeft":0,
+    "marginY":0,
+    "layout":"category",
+    "paddingX":13,
+    "imageBorderStyle":"solid",
+    "imageBorderWidth":1.5,
+    "size":1,
+    "hideTitle":false,
+    "textAlignment":"topCenter",
+    "marginBottom":0,
+    "horizontalItem":false,
+    "wrap":false,
     "items":[
     {
-    "category":"gid://shopify/Collection/459367678229",
+        "category":"gid://shopify/Collection/453699338529",
     "image":"https://airtiahfurniture.com/cdn/shop/files/1_785x.png?v=1695217991",
     "showDescription":false,
     "originalColor":true,
@@ -133,7 +163,7 @@
     "productType":false
     },
     {
-    "category":"gid://shopify/Collection/459367678229",
+        "category":"gid://shopify/Collection/453699338529",
     "image":"https://airtiahfurniture.com/cdn/shop/files/2_785x.png?v=1695217991",
     "showDescription":false,
     "originalColor":true,
@@ -145,7 +175,8 @@
     "productType":false
     },
     {
-    "category":"gid://shopify/Collection/459367678229",
+        "category":"gid://shopify/Collection/453699338529",
+
     "image":"https://airtiahfurniture.com/cdn/shop/files/3_785x.png?v=1695217990",
     "showDescription":false,
     "originalColor":true,
@@ -157,7 +188,8 @@
     "productType":false
     },
     {
-    "category":"gid://shopify/Collection/459367678229",
+        "category":"gid://shopify/Collection/453699338529",
+
     "image":"https://airtiahfurniture.com/cdn/shop/files/4_785x.png?v=1695217991",
     "showDescription":false,
     "originalColor":true,
@@ -169,7 +201,8 @@
     "productType":false
     },
     {
-    "category":"gid://shopify/Collection/459367678229",
+        "category":"gid://shopify/Collection/453699338529",
+
     "image":"https://airtiahfurniture.com/cdn/shop/files/5_785x.png?v=1695217991",
     "showDescription":false,
     "originalColor":true,
@@ -181,32 +214,78 @@
     "productType":false
     }
     ],
-    "line":false,
+    "marginTop":10,
+    "paddingY":12
+    },
+    {
+    "boxShadow":null,
+    "parallax":false,
+    "enableParallax":false,
+    "title":{
+    "rotate":["",
+    "مفارش مضغوطة",
+    "مفارش فاخرة",
+    "ضمان عشر سنوات"],
+    "usePrimaryColor":true,
+    "paddingRight":15,
+    "minWidth":0,
+    "title":"",
+    "type":"typer",
+    "enableBackground":false,
+    "backgroundGradientColor":[],
     "marginLeft":0,
     "marginRight":0,
-    "marginTop":10,
+    "paddingBottom":0,
+    "showSearch":false,
+    "borderInput":false,
+    "textOpacity":1,
+    "fontSize":20,
     "marginBottom":0,
-    "paddingX":0,
-    "paddingY":0,
-    "marginX":0,
-    "marginY":0,
-    "hideTitle":false,
-    "noBackground":false,
-    "imageBorderWidth":0,
-    "imageBorderColor":"ff189877",
-    "imageBorderStyle":"dot",
-    "imageSpacing":0,
-    "labelFontSize":18,
-    "horizontalItem":false,
-    "separateWidth":24,
-    "gradientStyle":false,
-    "border":0,
-    "enableBorder":false,
-    "textAlignment":"topCenter",
-    "imageBoxFit":"fitWidth",
-    "itemSize":{
-    "width":150,
-    "height":152.84210526315783}
+    "paddingTop":0,
+    "isSafeArea":false,
+    "alignment":"center",
+    "paddingLeft":5,
+    "fontWeight":400,
+    "marginTop":0,
+    "height":44,
+    "font":"Cairo"
+    },
+    "enableBackground":false,
+    "isHorizontal":false,
+    "marginLeft":10,
+    "layout":"bannerImage",
+    "fit":"fitHeight",
+    "marginRight":10,
+    "parallaxImageRatio":1.2,
+    "design":"static",
+    "marginBottom":0,
+    "items":[
+    {
+    "padding":5,
+    "image":"https://airtiahfurniture.com/cdn/shop/files/888888_940x.jpg?v=1695216355",
+    "bannerWithProduct":false,
+    "showSubcategory":false,
+    "video":"",
+    "radius":25,
+    "category":"gid://shopify/Collection/453699338529",
+    "defaultShowProduct":false,
+    "products":[]
+    },
+    {
+    "padding":5,
+    "image":"https://airtiahfurniture.com/cdn/shop/files/888_940x.jpg?v=1695216365",
+    "bannerWithProduct":false,
+    "showSubcategory":false,
+    "video":"",
+    "productLength":3,
+    "radius":25.3,
+    "category":"gid://shopify/Collection/453699338529",
+    "defaultShowProduct":true,
+    "products":[]
+    }
+    ],
+    "marginTop":0,
+    "height":0.35
     },
     {
     "boxShadow":{
@@ -261,7 +340,7 @@
     "hideTitle":false,
     "backgroundRadius":0,
     "showCartButton":false,
-    "category":"gid://shopify/Collection/459367678229",
+    "category":"gid://shopify/Collection/453699338529",
     "backgroundWidthMode":false,
     "hideEmptyProductListRating":false,
     "spaceWidth":138.08025981104657
@@ -323,7 +402,7 @@
     "hideTitle":false,
     "backgroundRadius":10,
     "showCartButton":true,
-    "category":"gid://shopify/Collection/459367678229",
+    "category":"gid://shopify/Collection/453699338529",
     "backgroundWidthMode":false,
     "hideEmptyProductListRating":false
     },
@@ -378,7 +457,7 @@
     "name":"أحدث المنتجات",
     "cartIconRadius":9,
     "enableAutoSliding":true,
-    "category":"gid://shopify/Collection/459367678229",
+    "category":"gid://shopify/Collection/453699338529",
     "hideEmptyProductListRating":false
     }
     ],
@@ -391,7 +470,7 @@
                 "fit": "contain",
                 "height": 0.3,
                 "width": 1,
-                "url": "",
+                "url": "https://i.imgur.com/ZbsoG27.png",
                 "align": {
                     "x": 1,
                     "y": 1
@@ -420,7 +499,7 @@
             "image": {
                 "height": 0.3,
                 "width": 1,
-                "url": "",
+                "url": "https://i.imgur.com/ZbsoG27.png",
                 "align": {
                     "x": 1,
                     "y": 1
@@ -623,20 +702,20 @@
     "showOriginalColor":false,
     "defaultTab":false,
     "icon":"home",
-    "key":"HNFTAvxvvS"
+    "key":"nxnvWqSuzc"
     },
     {
-    "key":"IFtUuJlUGE",
     "layout":"category",
-    "icon":"archivebox",
+    "parallaxImageRatio":1.2,
     "fontFamily":"CupertinoIcons",
-    "pos":200,
-    "defaultTab":false,
     "fullscreen":false,
+    "pos":200,
     "showOriginalColor":false,
-    "categoryLayout":"animation",
     "parallax":false,
-    "parallaxImageRatio":1.2
+    "defaultTab":false,
+    "icon":"archivebox",
+    "categoryLayout":"fancy-scroll",
+    "key":"ORoUWbkaKS"
     },
     {
     "layout":"search",
@@ -645,7 +724,7 @@
     "pos":300,
     "defaultTab":false,
     "icon":"search",
-    "key":"bWrzKMtBbd"
+    "key":"FKSiwCWUTm"
     },
     {
     "layout":"cart",
@@ -654,10 +733,10 @@
     "pos":400,
     "defaultTab":false,
     "icon":"shopping_cart",
-    "key":"MxhJICehUD"
+    "key":"pKKOJppWmO"
     },
     {
-    "key":"DnCSJDvFad",
+    "key":"UrgxIxpzZB",
     "layout":"profile",
     "icon":"ellipsis_circle",
     "fontFamily":"CupertinoIcons",
@@ -666,10 +745,12 @@
     "fullscreen":false,
     "showOriginalColor":false,
     "settings":["order",
+    "point",
     "language",
+    "currencies",
     "darkTheme",
     "privacy",
-    "about",
+    "title-WIEFLNXkwG",
     "button-XdDbfEHOwS"],
     "background":"https://airtiahfurniture.com/cdn/shop/files/1_copy_13_1.png?v=1708192152&width=1370",
     "subGeneralSetting":{
@@ -683,35 +764,48 @@
     "y":0}
     },
     "button-XdDbfEHOwS":{
+    "buttonAlignment":"center",
     "buttons":[
     {
-    "image":"https://i.imgur.com/b4lNm8S.png",
-    "textColor":"ff189877",
     "textFontSize":14,
-    "width":36,
-    "radius":0,
-    "marginLeft":5,
     "marginRight":5,
-    "height":36,
+    "image":"https://i.imgur.com/b4lNm8S.png",
+    "width":36,
     "navigator":{
     "url_launch":"",
-    "showSubcategory":false}
+    "showSubcategory":false
+    },
+    "radius":0,
+    "marginLeft":5,
+    "height":36
     },
     {
-    "image":"https://i.imgur.com/lRMwHGG.png",
-    "textColor":"ff189877",
     "textFontSize":14,
-    "width":40,
-    "radius":0,
-    "marginLeft":5,
     "marginRight":5,
-    "height":40,
+    "image":"https://i.imgur.com/yBGw3u1.png",
+    "width":36,
     "navigator":{
     "url_launch":"",
-    "showSubcategory":false}
+    "showSubcategory":false
+    },
+    "radius":0,
+    "marginLeft":5,
+    "height":36
+    },
+    {
+    "textFontSize":14,
+    "marginRight":5,
+    "image":"https://i.imgur.com/lRMwHGG.png",
+    "width":40,
+    "navigator":{
+    "url_launch":"",
+    "showSubcategory":false
+    },
+    "radius":0,
+    "marginLeft":5,
+    "height":40
     }
-    ],
-    "buttonAlignment":"center"}
+    ]}
     },
     "showBackground":true,
     "styleItem":"flatShadow"
@@ -729,7 +823,7 @@
     "height":138,
     "marginLeft":5
     },
-    "enable":false,
+    "enable":true,
     "logo":"https://i.imgur.com/YjKjruZ.jpeg",
     "subDrawerItem":{
     },
@@ -874,4 +968,8 @@
     "marginTop":4
     }
     ],
-    "snap":true}}
+    "snap":true
+    }
+  
+
+}

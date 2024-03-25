@@ -1,0 +1,980 @@
+{
+    "HorizonLayout": [
+        {
+            "showCart": true,
+            "layout": "logo",
+            "showMenu": false,
+            "showNotification": true,
+            "menuIcon": {
+                "fontFamily": "CupertinoIcons",
+                "name": "circle_grid_3x3_fill"
+            },
+            "showLogo": true,
+            "showSearch": true
+        },
+        {
+            "boxShadow": null,
+            "parallax": false,
+            "doubleTapToFullScreen": false,
+            "enableBackground": false,
+            "isHorizontal": false,
+            "fit": "fitWidth",
+            "marginRight": null,
+            "isBlur": false,
+            "parallaxImageRatio": 1.2,
+            "showNumber": false,
+            "design": "custom",
+            "showBackground": false,
+            "radius": 32.4,
+            "enableTimeIndicator": true,
+            "intervalTime": 3,
+            "padding": 15.1,
+            "upHeight": 0,
+            "pageIndicatorType": "line",
+            "isSlider": true,
+            "isSoundOn": false,
+            "enableParallax": false,
+            "autoPlayVideo": false,
+            "marginLeft": null,
+            "layout": "bannerImage",
+            "marginBottom": 0,
+            "autoPlay": false,
+            "items": [
+                {
+                    "image": "https://www.topvaluereviews.net/wp-content/uploads/2019/04/81TlKhvnSDL._SL1500_.jpg",
+                    "bannerWithProduct": false,
+                    "showSubcategory": false,
+                    "video": "",
+                    "defaultShowProduct": false,
+                    "products": []
+                },
+                {
+                    "image": "https://www.topvaluereviews.net/wp-content/uploads/2019/04/81TlKhvnSDL._SL1500_.jpg",
+                    "bannerWithProduct": false,
+                    "showSubcategory": false,
+                    "video": "",
+                    "defaultShowProduct": false,
+                    "products": []
+                },
+                {
+                    "image": "https://www.topvaluereviews.net/wp-content/uploads/2019/04/81TlKhvnSDL._SL1500_.jpg",
+                    "bannerWithProduct": false,
+                    "showSubcategory": false,
+                    "video": "",
+                    "defaultShowProduct": false,
+                    "products": []
+                },
+                {
+                    "image": "https://inspireui.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F81c15a81-af1c-4098-a5a1-8b8a21f58441%2Fbanner1.png?table=block&id=a8f3b172-92c3-4d05-9890-0c84a4a50488&spaceId=adfc7c52-309f-45b9-8822-60b33369c98c&width=2000&userId=&cache=v2",
+                    "bannerWithProduct": false,
+                    "showSubcategory": false,
+                    "video": "",
+                    "defaultShowProduct": false,
+                    "products": []
+                }
+            ],
+            "marginTop": 0
+        },
+        {
+            "layout": "spacer",
+            "backgroundColor": null,
+            "useLightColor": false,
+            "height": 2.6020852139652106e-16
+        },
+        {
+            "rotate": [],
+            "usePrimaryColor": true,
+            "paddingRight": 15,
+            "title": "أصناف المنتجات",
+            "type": "static",
+            "enableBackground": false,
+            "marginRight": 5,
+            "paddingBottom": 0,
+            "showSearch": false,
+            "borderInput": false,
+            "paddingTop": 0,
+            "isSafeArea": true,
+            "fontWeight": 800,
+            "height": 44.6,
+            "minWidth": 0,
+            "textColor": "ff000000",
+            "backgroundGradientColor": [],
+            "marginLeft": 20,
+            "layout": "header_text",
+            "textOpacity": 1,
+            "fontSize": 20,
+            "marginBottom": 0,
+            "alignment": "center",
+            "paddingLeft": 5,
+            "marginTop": 30,
+            "font": "Cairo"
+        },
+        {
+            "layout": "divider",
+            "color": "ff189877",
+            "thickness": 2,
+            "indent": 126,
+            "endIndent": 126
+        },
+        {
+            "line": false,
+            "type": "image",
+            "showShortDescription": true,
+            "marginRight": 0,
+            "imageSpacing": 1,
+            "spacing": 12,
+            "gradientStyle": false,
+            "itemSize": {
+                "width": 140.42105263157896,
+                "height": 264.63157894736855
+            },
+            "radius": 61,
+            "border": 0,
+            "imageBoxFit": "fill",
+            "labelFontSize": 18,
+            "separateWidth": 24,
+            "noBackground": false,
+            "enableBorder": false,
+            "imageBorderColor": "ff189877",
+            "marginX": 0,
+            "marginLeft": 0,
+            "marginY": 0,
+            "layout": "category",
+            "paddingX": 13,
+            "imageBorderStyle": "solid",
+            "imageBorderWidth": 1.5,
+            "size": 1,
+            "hideTitle": false,
+            "textAlignment": "topCenter",
+            "marginBottom": 0,
+            "horizontalItem": false,
+            "wrap": false,
+            "items": [
+                {
+                    "category": "gid://shopify/Collection/453699338529",
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/1_785x.png?v=1695217991",
+                    "showDescription": false,
+                    "originalColor": true,
+                    "showText": true,
+                    "keepDefaultTitle": false,
+                    "onSale": false,
+                    "title": "مفارش",
+                    "isFeatured": false,
+                    "productType": false
+                },
+                {
+                    "category": "gid://shopify/Collection/453699338529",
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/2_785x.png?v=1695217991",
+                    "showDescription": false,
+                    "originalColor": true,
+                    "showText": true,
+                    "keepDefaultTitle": false,
+                    "onSale": false,
+                    "title": "مخدات",
+                    "isFeatured": false,
+                    "productType": false
+                },
+                {
+                    "category": "gid://shopify/Collection/453699338529",
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/3_785x.png?v=1695217990",
+                    "showDescription": false,
+                    "originalColor": true,
+                    "showText": true,
+                    "keepDefaultTitle": false,
+                    "onSale": false,
+                    "title": "مراتب",
+                    "isFeatured": false,
+                    "productType": false
+                },
+                {
+                    "category": "gid://shopify/Collection/453699338529",
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/4_785x.png?v=1695217991",
+                    "showDescription": false,
+                    "originalColor": true,
+                    "showText": true,
+                    "keepDefaultTitle": false,
+                    "onSale": false,
+                    "title": "أطقم",
+                    "isFeatured": false,
+                    "productType": false
+                },
+                {
+                    "category": "gid://shopify/Collection/453699338529",
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/5_785x.png?v=1695217991",
+                    "showDescription": false,
+                    "originalColor": true,
+                    "showText": true,
+                    "keepDefaultTitle": false,
+                    "onSale": false,
+                    "title": "مناشف",
+                    "isFeatured": false,
+                    "productType": false
+                }
+            ],
+            "marginTop": 10,
+            "paddingY": 12
+        },
+        {
+            "boxShadow": null,
+            "parallax": false,
+            "enableParallax": false,
+            "title": {
+                "rotate": [
+                    "",
+                    "مفارش مضغوطة",
+                    "مفارش فاخرة",
+                    "ضمان عشر سنوات"
+                ],
+                "usePrimaryColor": true,
+                "paddingRight": 15,
+                "minWidth": 0,
+                "title": "",
+                "type": "typer",
+                "enableBackground": false,
+                "backgroundGradientColor": [],
+                "marginLeft": 0,
+                "marginRight": 0,
+                "paddingBottom": 0,
+                "showSearch": false,
+                "borderInput": false,
+                "textOpacity": 1,
+                "fontSize": 20,
+                "marginBottom": 0,
+                "paddingTop": 0,
+                "isSafeArea": false,
+                "alignment": "center",
+                "paddingLeft": 5,
+                "fontWeight": 400,
+                "marginTop": 0,
+                "height": 44,
+                "font": "Cairo"
+            },
+            "enableBackground": false,
+            "isHorizontal": false,
+            "marginLeft": 10,
+            "layout": "bannerImage",
+            "fit": "fitHeight",
+            "marginRight": 10,
+            "parallaxImageRatio": 1.2,
+            "design": "static",
+            "marginBottom": 0,
+            "items": [
+                {
+                    "padding": 5,
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/888888_940x.jpg?v=1695216355",
+                    "bannerWithProduct": false,
+                    "showSubcategory": false,
+                    "video": "",
+                    "radius": 25,
+                    "category": "gid://shopify/Collection/453699338529",
+                    "defaultShowProduct": false,
+                    "products": []
+                },
+                {
+                    "padding": 5,
+                    "image": "https://airtiahfurniture.com/cdn/shop/files/888_940x.jpg?v=1695216365",
+                    "bannerWithProduct": false,
+                    "showSubcategory": false,
+                    "video": "",
+                    "productLength": 3,
+                    "radius": 25.3,
+                    "category": "gid://shopify/Collection/453699338529",
+                    "defaultShowProduct": true,
+                    "products": []
+                }
+            ],
+            "marginTop": 0,
+            "height": 0.35
+        },
+        {
+            "boxShadow": {
+                "spreadRadius": 10,
+                "colorOpacity": 0.1,
+                "blurRadius": 10,
+                "x": 7,
+                "y": 9
+            },
+            "featured": false,
+            "backgroundBoxFit": "fill",
+            "hideEmptyProductLayout": false,
+            "showCountDown": true,
+            "hideStore": false,
+            "showQuantity": false,
+            "showHeart": false,
+            "showCartButtonWithQuantity": false,
+            "showOnlyImage": false,
+            "image": "",
+            "showCategory": false,
+            "showCartIconColor": true,
+            "hPadding": 8,
+            "hidePrice": false,
+            "enableBottomAddToCart": true,
+            "enableRating": true,
+            "imageRatio": 1.2,
+            "useCircularRadius": true,
+            "borderRadius": 16,
+            "backgroundHeight": 365,
+            "cardDesign": "card",
+            "isSnapping": true,
+            "name": "خصومات 30% ⚡️",
+            "cartIconRadius": 9,
+            "enableAutoSliding": false,
+            "showCartIcon": false,
+            "imageBoxfit": "fill",
+            "showStockStatus": true,
+            "parallax": false,
+            "columns": 0,
+            "backgroundImage": "https://trello.com/1/cards/61baf159c1ad3c1be55bc3ef/attachments/61baf17b156fb77678a6a729/download/ceb48de6-e86c-4638-8b7d-08508dfaeb8a.png.webp",
+            "vPadding": 9,
+            "hMargin": 9,
+            "parallaxImageRatio": 1.2,
+            "vMargin": 18,
+            "onSale": true,
+            "productType": false,
+            "backgroundColor": "ff189877",
+            "productListItemHeight": 125,
+            "useSort": false,
+            "rows": 1,
+            "layout": "saleOff",
+            "hideTitle": false,
+            "backgroundRadius": 0,
+            "showCartButton": false,
+            "category": "gid://shopify/Collection/453699338529",
+            "backgroundWidthMode": false,
+            "hideEmptyProductListRating": false,
+            "spaceWidth": 138.08025981104657
+        },
+        {
+            "layout": "spacer",
+            "backgroundColor": null,
+            "useLightColor": false,
+            "height": 31.578947368421055
+        },
+        {
+            "featured": false,
+            "hideEmptyProductLayout": false,
+            "marginBGP": {
+                "top": 0,
+                "left": 0,
+                "bottom": 0,
+                "right": 0
+            },
+            "showCountDown": false,
+            "hideStore": false,
+            "showQuantity": true,
+            "showHeart": false,
+            "showCartButtonWithQuantity": false,
+            "showOnlyImage": false,
+            "order": "asc",
+            "image": "",
+            "showCategory": false,
+            "showCartIconColor": false,
+            "orderby": "popularity",
+            "hidePrice": false,
+            "hPadding": 0,
+            "enableBottomAddToCart": true,
+            "enableRating": true,
+            "imageRatio": 1.4,
+            "useCircularRadius": true,
+            "borderRadius": 0,
+            "cardDesign": "simpleCard",
+            "isSnapping": true,
+            "name": "منتجات مميزة",
+            "cartIconRadius": 9,
+            "enableAutoSliding": false,
+            "showCartIcon": false,
+            "showStockStatus": true,
+            "imageBoxfit": "fitHeight",
+            "titleLine": 2,
+            "parallax": false,
+            "columns": 0,
+            "vPadding": 0,
+            "hMargin": 6,
+            "parallaxImageRatio": 1.2,
+            "vMargin": 0,
+            "onSale": false,
+            "productType": false,
+            "productListItemHeight": 125,
+            "useSort": false,
+            "rows": 1,
+            "layout": "threeColumn",
+            "hideTitle": false,
+            "backgroundRadius": 10,
+            "showCartButton": true,
+            "category": "gid://shopify/Collection/453699338529",
+            "backgroundWidthMode": false,
+            "hideEmptyProductListRating": false
+        },
+        {
+            "showCartIcon": true,
+            "boxShadow": {
+                "spreadRadius": 10,
+                "colorOpacity": 0.1,
+                "blurRadius": 2.0101010101010104,
+                "x": 0,
+                "y": 1
+            },
+            "imageBoxfit": "cover",
+            "showStockStatus": true,
+            "hideEmptyProductLayout": false,
+            "showCountDown": false,
+            "parallax": false,
+            "columns": 3,
+            "hideStore": false,
+            "vPadding": 2,
+            "showQuantity": false,
+            "showHeart": true,
+            "hMargin": 8,
+            "durationAutoSliding": 50,
+            "parallaxImageRatio": 1.2,
+            "showCartButtonWithQuantity": false,
+            "vMargin": 8,
+            "showOnlyImage": false,
+            "onSale": false,
+            "productType": false,
+            "order": "asc",
+            "image": "",
+            "showCategory": false,
+            "productListItemHeight": 125,
+            "showCartIconColor": false,
+            "useSort": false,
+            "orderby": "date",
+            "hPadding": 6,
+            "hidePrice": false,
+            "rows": 1,
+            "enableBottomAddToCart": true,
+            "layout": "twoColumn",
+            "enableRating": true,
+            "imageRatio": 1.2,
+            "useCircularRadius": true,
+            "borderRadius": 5,
+            "hideTitle": false,
+            "cardDesign": "flat",
+            "backgroundRadius": 0,
+            "isSnapping": true,
+            "showCartButton": false,
+            "name": "أحدث المنتجات",
+            "cartIconRadius": 9,
+            "enableAutoSliding": true,
+            "category": "gid://shopify/Collection/453699338529",
+            "hideEmptyProductListRating": false
+        }
+    ],
+    "aboutData": {
+        "id": 3,
+        "container": {
+            "height": 0.45,
+            "image": {
+                "imageBoxfit": "contain",
+                "fit": "contain",
+                "height": 0.3,
+                "width": 1,
+                "url": "https://i.imgur.com/ZbsoG27.png",
+                "align": {
+                    "x": 1,
+                    "y": 1
+                }
+            },
+            "header": {
+                "align": {
+                    "x": 0,
+                    "y": -0.8
+                },
+                "padding": {
+                    "horizontal": 0,
+                    "vertical": 0
+                },
+                "text": "من نحن",
+                "subHeader": ""
+            }
+        },
+        "description": "عالم يتجدد على الدوام، فهل من المعقول أنك لم تغيّر صفحة “من نحن” الخاصة بشركتك، التي اعتمدتها منذ خمس سنوات مضت؟ أم أن شركتك لم تتطور وبقيت تُراوح مكانها منذ تأسيسها وإطلاق الموقع. هناك دائما قصص جديدة ومثيرة تحدث، أو قصص قديمة قيلت وتحتاج أن يتم قصّها بطرق أكثر إثارة، هناك أهداف تم تحقيقها، وأهداف أخرى سُطّرت في شركتك، أفكارٌ تغيرت، مهارات وأفك",
+        "background": "#D4F1E5"
+    },
+    "privacyData": {
+        "id": 3,
+        "container": {
+            "height": 0.45,
+            "image": {
+                "height": 0.3,
+                "width": 1,
+                "url": "https://i.imgur.com/ZbsoG27.png",
+                "align": {
+                    "x": 1,
+                    "y": 1
+                }
+            },
+            "header": {
+                "align": {
+                    "x": 0,
+                    "y": -0.8
+                },
+                "padding": {
+                    "horizontal": 0,
+                    "vertical": 0
+                },
+                "text": "من نحن",
+                "subHeader": ""
+            }
+        },
+        "description": "عالم يتجدد على الدوام، فهل من المعقول أنك لم تغيّر صفحة “من نحن” الخاصة بشركتك، التي اعتمدتها منذ خمس سنوات مضت؟ أم أن شركتك لم تتطور وبقيت تُراوح مكانها منذ تأسيسها وإطلاق الموقع. هناك دائما قصص جديدة ومثيرة تحدث، أو قصص قديمة قيلت وتحتاج أن يتم قصّها بطرق أكثر إثارة، هناك أهداف تم تحقيقها، وأهداف أخرى سُطّرت في شركتك، أفكارٌ تغيرت، مهارات وأفك",
+        "background": "#D4F1E5"
+    },
+    "smartChat": {
+        "app": "https://wa.me/905345130437",
+        "description": "WhatsApp",
+        "iconData": "whatsapp"
+    },
+    "Setting": {
+        "TabBarConfig": {
+            "enable": true,
+            "showMinimize": false,
+            "isSafeArea": false,
+            "color": "ff189877",
+            "colorCart": "ffffffff",
+            "colorIcon": "ffffffff",
+            "colorActiveIcon": "ff000000",
+            "iconSize": 22.955647901669458,
+            "indicatorStyle": "none",
+            "showFloatingClip": true,
+            "showFloating": false,
+            "enableOnTop": false,
+            "enableDivider": false,
+            "radiusTopLeft": 0,
+            "radiusTopRight": 0,
+            "radiusBottomLeft": 0,
+            "radiusBottomRight": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingTop": 0,
+            "marginTop": 0,
+            "marginBottom": 0,
+            "marginLeft": 0,
+            "marginRight": 0,
+            "bottomBarStyle": "static",
+            "alwaysShowTabBar": true,
+            "TabBarIndicator": {
+                "height": 0,
+                "tabPosition": "bottom",
+                "topRightRadius": 0,
+                "topLeftRadius": 0,
+                "bottomRightRadius": 0,
+                "bottomLeftRadius": 0,
+                "color": null,
+                "horizontalPadding": 0,
+                "verticalPadding": 0,
+                "strokeWidth": 0,
+                "radius": 0,
+                "distanceFromCenter": 0,
+                "paintingStyle": "fill"
+            },
+            "TabBarFloating": {
+                "position": 0,
+                "radius": 50,
+                "color": null,
+                "location": null,
+                "width": 50,
+                "height": 50,
+                "elevation": 2,
+                "floatingType": "circle",
+                "notchMargin": 4,
+                "isCoverMode": false
+            }
+        },
+        "FontFamily": "Montserrat",
+        "FontHeader": "Montserrat",
+        "ProductDetail": "simpleType",
+        "MainColor": null,
+        "ShowChat": true,
+        "AgeRestriction": {
+            "enable": false,
+            "alwaysShowUponOpen": true,
+            "imageUrl": "",
+            "minimumAge": 21,
+            "hintMessage": "What is your year of birth?",
+            "useLogo": true,
+            "title": "Welcome to our shop\nYou must be 21 or older to enter",
+            "deniedMessage": "You are not of legal age to use this application",
+            "backgroundImageUrl": ""
+        },
+        "ProductListLayout": "list",
+        "SmartEngagementBanner": {
+            "popup": {
+                "closePosition": "topRight",
+                "updatedTime": 1661314494281,
+                "data": {
+                    "parallax": false,
+                    "enableParallax": false,
+                    "isHorizontal": false,
+                    "marginLeft": null,
+                    "layout": "bannerImage",
+                    "fit": "fitHeight",
+                    "marginRight": null,
+                    "parallaxImageRatio": 1.2,
+                    "design": "static",
+                    "marginBottom": 10,
+                    "items": [
+                        {
+                            "image": "https://i.imgur.com/ZL1LO75.png",
+                            "padding": 0,
+                            "bannerWithProduct": false,
+                            "showSubcategory": false,
+                            "category": "22",
+                            "defaultShowProduct": false,
+                            "products": []
+                        }
+                    ],
+                    "marginTop": 10,
+                    "key": "p2oq4zc4hg",
+                    "height": 0.45
+                },
+                "enable": false,
+                "alwaysShowUponOpen": true
+            },
+            "flexible": {
+                "canClose": true,
+                "data": {
+                    "layout": "button",
+                    "marginBottom": 0,
+                    "alignment": "topCenter",
+                    "items": [
+                        {
+                            "marginRight": 0,
+                            "textFontSize": 14,
+                            "image": "https://assets9.lottiefiles.com/private_files/lf30_a4mKwA.json",
+                            "useMaxWidth": true,
+                            "borderRadius": 2,
+                            "width": 100,
+                            "navigator": {
+                                "coupon": "blackf",
+                                "showSubcategory": false
+                            },
+                            "height": 80,
+                            "marginLeft": 0
+                        }
+                    ],
+                    "marginTop": 0
+                },
+                "enable": false,
+                "width": 100,
+                "canDrag": true,
+                "height": 100
+            },
+            "sticky": {
+                "data": {
+                    "parallax": false,
+                    "enableParallax": false,
+                    "isHorizontal": false,
+                    "marginLeft": 10,
+                    "layout": "bannerImage",
+                    "fit": "fitWidth",
+                    "marginRight": 10,
+                    "parallaxImageRatio": 1.2,
+                    "design": "static",
+                    "marginBottom": 10,
+                    "items": [
+                        {
+                            "image": "https://i.imgur.com/LUaEM3v.jpeg",
+                            "padding": 0,
+                            "coupon": "halfprice",
+                            "bannerWithProduct": false,
+                            "showSubcategory": false,
+                            "radius": 9,
+                            "defaultShowProduct": false,
+                            "products": []
+                        }
+                    ],
+                    "marginTop": 10,
+                    "key": "ga8oe39k5t",
+                    "height": 0.2
+                },
+                "enable": false
+            }
+        },
+        "StickyHeader": true
+    },
+    "TabBar": [
+        {
+            "layout": "home",
+            "fontFamily": "CupertinoIcons",
+            "fullscreen": false,
+            "pos": 100,
+            "showOriginalColor": false,
+            "defaultTab": false,
+            "icon": "home",
+            "key": "nxnvWqSuzc"
+        },
+        {
+            "layout": "category",
+            "parallaxImageRatio": 1.2,
+            "fontFamily": "CupertinoIcons",
+            "fullscreen": false,
+            "pos": 200,
+            "showOriginalColor": false,
+            "parallax": false,
+            "defaultTab": false,
+            "icon": "archivebox",
+            "categoryLayout": "fancy-scroll",
+            "key": "ORoUWbkaKS"
+        },
+        {
+            "layout": "search",
+            "fontFamily": "CupertinoIcons",
+            "fullscreen": false,
+            "pos": 300,
+            "defaultTab": false,
+            "icon": "search",
+            "key": "FKSiwCWUTm"
+        },
+        {
+            "layout": "cart",
+            "fontFamily": "CupertinoIcons",
+            "fullscreen": false,
+            "pos": 400,
+            "defaultTab": false,
+            "icon": "shopping_cart",
+            "key": "pKKOJppWmO"
+        },
+        {
+            "key": "UrgxIxpzZB",
+            "layout": "profile",
+            "icon": "ellipsis_circle",
+            "fontFamily": "CupertinoIcons",
+            "pos": 500,
+            "defaultTab": false,
+            "fullscreen": false,
+            "showOriginalColor": false,
+            "settings": [
+                "order",
+                "point",
+                "language",
+                "currencies",
+                "darkTheme",
+                "privacy",
+                "title-WIEFLNXkwG",
+                "button-XdDbfEHOwS"
+            ],
+            "background": "https://airtiahfurniture.com/cdn/shop/files/1_copy_13_1.png?v=1708192152&width=1370",
+            "subGeneralSetting": {
+                "title-WIEFLNXkwG": {
+                    "enableDivider": false,
+                    "titleColor": null,
+                    "fontSize": null,
+                    "title": "About Us!",
+                    "verticalPadding": {
+                        "x": 16,
+                        "y": 0
+                    }
+                },
+                "button-XdDbfEHOwS": {
+                    "buttonAlignment": "center",
+                    "buttons": [
+                        {
+                            "textFontSize": 14,
+                            "marginRight": 5,
+                            "image": "https://i.imgur.com/b4lNm8S.png",
+                            "width": 36,
+                            "navigator": {
+                                "url_launch": "",
+                                "showSubcategory": false
+                            },
+                            "radius": 0,
+                            "marginLeft": 5,
+                            "height": 36
+                        },
+                        {
+                            "textFontSize": 14,
+                            "marginRight": 5,
+                            "image": "https://i.imgur.com/yBGw3u1.png",
+                            "width": 36,
+                            "navigator": {
+                                "url_launch": "",
+                                "showSubcategory": false
+                            },
+                            "radius": 0,
+                            "marginLeft": 5,
+                            "height": 36
+                        },
+                        {
+                            "textFontSize": 14,
+                            "marginRight": 5,
+                            "image": "https://i.imgur.com/lRMwHGG.png",
+                            "width": 40,
+                            "navigator": {
+                                "url_launch": "",
+                                "showSubcategory": false
+                            },
+                            "radius": 0,
+                            "marginLeft": 5,
+                            "height": 40
+                        }
+                    ]
+                }
+            },
+            "showBackground": true,
+            "styleItem": "flatShadow"
+        }
+    ],
+    "Drawer": {
+        "filter": 0,
+        "logoConfig": {
+            "marginRight": 0,
+            "useMaxWidth": true,
+            "width": 416,
+            "boxFit": "cover",
+            "marginBottom": 10,
+            "marginTop": 0,
+            "height": 138,
+            "marginLeft": 5
+        },
+        "enable": true,
+        "logo": "https://i.imgur.com/YjKjruZ.jpeg",
+        "subDrawerItem": {},
+        "safeArea": true,
+        "items": [
+            {
+                "show": true,
+                "type": "home"
+            },
+            {
+                "show": false,
+                "type": "blog"
+            },
+            {
+                "show": false,
+                "type": "login"
+            },
+            {
+                "show": true,
+                "type": "category"
+            },
+            {
+                "show": false,
+                "type": "categories"
+            },
+            {
+                "show": false,
+                "type": "cart"
+            },
+            {
+                "show": false,
+                "type": "profile"
+            }
+        ],
+        "key": "RhxGEKPfoM",
+        "zoomConfig": {
+            "borderRadius": 16,
+            "backgroundImage": null,
+            "angle": 0,
+            "style": "overlay",
+            "slideMargin": 0,
+            "mainScreenScale": 0.3,
+            "enableShadow": false,
+            "slideWidth": 0.55
+        }
+    },
+    "AppBar": {
+        "elevation": 0,
+        "backgroundColor": "ff189877",
+        "pinned": true,
+        "showOnScreens": [
+            "home"
+        ],
+        "enable": false,
+        "floating": true,
+        "alwaysShowAppBar": true,
+        "expandedItems": [],
+        "items": [
+            {
+                "spacingText": 3,
+                "paddingRight": 4,
+                "icon": "square_grid_2x2",
+                "type": "icon",
+                "marginRight": 4,
+                "avatarRadius": 100,
+                "headerFontWeight": "400",
+                "fontFamily": "CupertinoIcons",
+                "paddingBottom": 4,
+                "headerFontSize": 16,
+                "pos": 100,
+                "action": "menu",
+                "iconSize": 24,
+                "paddingTop": 4,
+                "radius": 18,
+                "fontWeight": "400",
+                "key": "gbs354efgo",
+                "backgroundColor": "0",
+                "headerTextOpacity": 0.5,
+                "marginLeft": 16,
+                "size": 40,
+                "textOpacity": 0.5,
+                "fontSize": 16,
+                "marginBottom": 4,
+                "alignment": "center",
+                "paddingLeft": 4,
+                "marginTop": 4
+            },
+            {
+                "spacingText": 3,
+                "paddingRight": 4,
+                "icon": "location",
+                "type": "text",
+                "title": "TOY ZONE",
+                "marginRight": 4,
+                "avatarRadius": 100,
+                "headerFontWeight": "400",
+                "fontFamily": "CupertinoIcons",
+                "paddingBottom": 4,
+                "headerFontSize": 16,
+                "pos": 200,
+                "action": "none",
+                "iconSize": 24,
+                "paddingTop": 4,
+                "radius": 16,
+                "fontWeight": "800",
+                "key": "cm03ohengg",
+                "backgroundColor": "#00000000",
+                "headerTextOpacity": 0.5,
+                "marginLeft": 4,
+                "size": 20,
+                "textOpacity": 0.8,
+                "fontSize": 18,
+                "marginBottom": 4,
+                "alignment": "center",
+                "paddingLeft": 4,
+                "marginTop": 4
+            },
+            {
+                "spacingText": 3,
+                "paddingRight": 4,
+                "icon": "shopping_cart",
+                "type": "icon",
+                "marginRight": 16,
+                "avatarRadius": 100,
+                "headerFontWeight": "400",
+                "fontFamily": "CupertinoIcons",
+                "paddingBottom": 4,
+                "headerFontSize": 16,
+                "pos": 400,
+                "action": "cart",
+                "iconSize": 24,
+                "paddingTop": 4,
+                "radius": 18,
+                "fontWeight": "400",
+                "key": "swrxx0zicb",
+                "backgroundColor": "0",
+                "headerTextOpacity": 0.5,
+                "marginLeft": 4,
+                "size": 40,
+                "textOpacity": 0.5,
+                "fontSize": 16,
+                "marginBottom": 4,
+                "alignment": "center",
+                "paddingLeft": 4,
+                "marginTop": 4
+            }
+        ],
+        "snap": true
+    }
+}
