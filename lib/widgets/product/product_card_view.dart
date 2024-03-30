@@ -142,7 +142,9 @@ class _ProductCardState extends State<ProductCard> with ActionButtonMixin {
         // if (widget.config.showCartButton &&
         //     Services().widget.enableShoppingCart(widget.item)) ...[
        //  const SizedBox(height: 6),
-        
+    Align(
+          alignment: Alignment.bottomCenter, 
+          child:     
     CartButton(
             product: widget.item,
             hide: !widget.item.canBeAddedToCartFromList(
@@ -150,6 +152,7 @@ class _ProductCardState extends State<ProductCard> with ActionButtonMixin {
             enableBottomAddToCart: widget.config.enableBottomAddToCart,
             quantity: _quantity,
           ),
+    )
         //],
       ],
     );

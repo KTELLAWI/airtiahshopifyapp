@@ -35,32 +35,33 @@ class _StateCardCategories extends BaseScreen<ParallaxCategories> {
     return Consumer<CategoryModel>(
       builder: (context, provider, child) {
         final categories = provider.rootCategories ?? <Category>[];
-        return SingleChildScrollView(
-          scrollDirection: Axis.vertical,
-          child: Column(
-            children: List.generate(
-              categories.length,
-              (index) {
-                var category = categories[index];
-                return GestureDetector(
-                  onTap: () {
-                    FluxNavigate.pushNamed(
-                      RouteList.backdrop,
-                      arguments: BackDropArguments(
-                        cateId: category.id,
-                        cateName: category.name,
-                      ),
-                    );
-                  },
-                  child: ParallaxImage(
-                    image: category.image ?? '',
-                    name: category.name ?? '',
-                  ),
-                );
-              },
-            ),
-          ),
-        );
+        return Text("ddd");
+        // SingleChildScrollView(
+        //   scrollDirection: Axis.vertical,
+        //   child: Column(
+        //     children: List.generate(
+        //       categories.length,
+        //       (index) {
+        //         var category = categories[index];
+        //         return GestureDetector(
+        //           onTap: () {
+        //             FluxNavigate.pushNamed(
+        //               RouteList.backdrop,
+        //               arguments: BackDropArguments(
+        //                 cateId: category.id,
+        //                 cateName: category.name,
+        //               ),
+        //             );
+        //           },
+        //           child: ParallaxImage(
+        //             image: category.image ?? '',
+        //             name: category.name ?? '',
+        //           ),
+        //         );
+        //       },
+        //     ),
+        //   ),
+        // );
       },
     );
   }

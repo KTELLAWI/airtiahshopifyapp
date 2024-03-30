@@ -8,6 +8,10 @@ import '../../models/index.dart' show Category, Product;
 import '../../modules/dynamic_layout/config/product_config.dart';
 import '../../services/index.dart';
 import 'list_card.dart';
+import '../../modules/dynamic_layout/helper/header_view.dart';
+import '../../../models/entities/back_drop_arguments.dart';
+//import '../../../config/index.dart';
+import '../../../routes/flux_navigate.dart';
 
 class MenuCard extends StatefulWidget {
   final List<Category> categories;
@@ -77,21 +81,68 @@ class _StateMenuCard extends State<MenuCard> {
             : constraints.maxWidth * 0.4 +
                 130 * ProductConfig.empty().imageRatio;
 
-        return Padding(
+        return
+        Container(
+          //color:Colors.red,
+          child: Padding(
           padding: const EdgeInsets.only(left: 10, right: 10, bottom: 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            
+
+
             children: <Widget>[
-              Padding(
-                padding: const EdgeInsets.only(bottom: 10),
-                child: Text(
-                  widget.category.name!.toUpperCase(),
-                  style: const TextStyle(
+              Row(
+                mainAxisAlignment:MainAxisAlignment.spaceBetween,
+                mainAxisSize:MainAxisSize.max,
+                children:[
+                  Text(
+                widget.category.name!.toUpperCase(),
+                style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w800,
+                  ),),
+                  GestureDetector(
+      onTap: () {
+  FluxNavigate.pushNamed(
+            RouteList.backdrop,
+            arguments: BackDropArguments(
+              cateId: widget.category.id,
+        //cateName: category.name,
+             // config: config.toJson(),
+              cateName: widget.category.name,
+            ),
+          );
+      },
+      child: 
+                     Text(
+                "عرض الكل",
+                 style: Theme.of(context)
+                        .textTheme
+                        .bodySmall!
+                        .copyWith(color: Theme.of(context).primaryColor
                   ),
-                ),
+                
               ),
+                  ),
+              //  HeaderView(
+              //       headerText:  'aaaaaa ',
+              //       verticalMargin: 0,
+              //       showSeeAll: false),
+                  
+                ]
+              ),
+            
+              // Padding(
+              //   padding: const EdgeInsets.only(bottom: 10),
+              //   child: Text(
+              //   widget.category.name!.toUpperCase(),
+              //   style: const TextStyle(
+              //       fontSize: 18,
+              //       fontWeight: FontWeight.w800,
+              //     ),
+              //   ),
+              // ),
               widget.categories.isEmpty
                   ? const SizedBox()
                   : SizedBox(
@@ -254,6 +305,7 @@ class _StateMenuCard extends State<MenuCard> {
               ),
             ],
           ),
+        ),
         );
       },
     );

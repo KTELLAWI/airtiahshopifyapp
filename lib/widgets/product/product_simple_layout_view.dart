@@ -92,7 +92,8 @@ class ProductSimpleLayout extends StatelessWidget with ActionButtonMixin {
       ],
     );
 
-    return GestureDetector(
+    return
+     GestureDetector(
       onTap: () => onTapProduct(context, product: item, config: config),
       behavior: HitTestBehavior.opaque,
       child: Container(

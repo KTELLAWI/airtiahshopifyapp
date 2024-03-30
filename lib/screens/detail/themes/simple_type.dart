@@ -53,22 +53,22 @@ class _SimpleLayoutState extends State<SimpleLayout>
   @override
   void initState() {
     super.initState();
-fetchData();
+// fetchData();
     _hideController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 450),
       value: 1.0,
     );
   }
-   Future<void> fetchData() async {
+  //  Future<void> fetchData() async {
     
-   List<Map<dynamic, dynamic>> dataList = await Provider.of<ProductModel>(context, listen: false).getMetafields(product.id);
-    if (dataList.isNotEmpty) {
-      setState(() {
-        listo = dataList;
-      });
-    }
-  }
+  //  List<Map<dynamic, dynamic>> dataList = await Provider.of<ProductModel>(context, listen: false).getMetafields(product.id);
+  //   if (dataList.isNotEmpty) {
+  //     setState(() {
+  //       listo = dataList;
+  //     });
+  //   }
+  // }
 
   @override
   void didUpdateWidget(SimpleLayout oldWidget) {
@@ -245,49 +245,39 @@ fetchData();
                                               
                           // })
 
-            //                 if(listo!.isNotEmpty)
-            //                   Row(
+           
+                          // SizedBox(
+                          //   height:3
+                          // ), 
+                        //  if(listo!.isNotEmpty)
+            //                              Row(
             //                 children:[
-            //                    Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/1.png?v=1693233310', width: 60, height: 60),
+            //                    Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/3.png?v=1693233311', width: 60, height: 60),
             //                    SizedBox(width: 5),
             //                     Flexible(
             // child:
-            //                    Text(listo![0]!["value"].toString(),
+            //                    Text(listo![1]!["value"].toString(),
             //                     maxLines: 2, // Set maximum lines to 2
             //                   //overflow: TextOverflow.ellipsis,
             //                   textAlign: TextAlign.right),)
             //                 ]
             //               ),
-                          SizedBox(
-                            height:3
-                          ), if(listo!.isNotEmpty)
-                                         Row(
-                            children:[
-                               Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/3.png?v=1693233311', width: 60, height: 60),
-                               SizedBox(width: 5),
-                                Flexible(
-            child:
-                               Text(listo![1]!["value"].toString(),
-                                maxLines: 2, // Set maximum lines to 2
-                              //overflow: TextOverflow.ellipsis,
-                              textAlign: TextAlign.right),)
-                            ]
-                          ),
-                                SizedBox(
-                            height:3
-                          ), if(listo!.isNotEmpty)
-                                         Row(
-                            children:[
-                               Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/2.png?v=1693233311', width: 60, height: 60),
-                               SizedBox(width: 5),
-                                Flexible(
-            child:
-                               Text(listo![2]!["value"].toString(),
-                                maxLines: 2, // Set maximum lines to 2
-                              //overflow: TextOverflow.ellipsis,
-                              textAlign: TextAlign.right),)
-                            ]
-                          ),
+                          //       SizedBox(
+                          //   height:3
+                          // ), 
+            //               if(listo!.isNotEmpty)
+            //                              Row(
+            //                 children:[
+            //                    Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/2.png?v=1693233311', width: 60, height: 60),
+            //                    SizedBox(width: 5),
+            //                     Flexible(
+            // child:
+            //                    Text(listo![2]!["value"].toString(),
+            //                     maxLines: 2, // Set maximum lines to 2
+            //                   //overflow: TextOverflow.ellipsis,
+            //                   textAlign: TextAlign.right),)
+            //                 ]
+            //               ),
                                   ],
                                 ),
                               ),
@@ -374,7 +364,8 @@ fetchData();
                             alignment: Tools.isRTL(context)
                                 ? Alignment.bottomLeft
                                 : Alignment.bottomRight,
-                            child: ExpandingBottomSheet(
+                            child:
+                            ExpandingBottomSheet(
                               hideController: _hideController,
                               onInitController: _onInitController,
                             ),
