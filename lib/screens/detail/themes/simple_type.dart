@@ -236,48 +236,7 @@ class _SimpleLayoutState extends State<SimpleLayout>
                                           ? const SizedBox()
                                           : ProductTitle(product),
                                     ),
-                          //          List.generate( meta!.length,(index) {
-                          //         return ListTile(
-                          //                     title: Text(model.keywords[index]),
-                          //                     onTap: () {
-                          //                       onTap(model.keywords[index]);
-                          //                     });
-                                              
-                          // })
-
-           
-                          // SizedBox(
-                          //   height:3
-                          // ), 
-                        //  if(listo!.isNotEmpty)
-            //                              Row(
-            //                 children:[
-            //                    Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/3.png?v=1693233311', width: 60, height: 60),
-            //                    SizedBox(width: 5),
-            //                     Flexible(
-            // child:
-            //                    Text(listo![1]!["value"].toString(),
-            //                     maxLines: 2, // Set maximum lines to 2
-            //                   //overflow: TextOverflow.ellipsis,
-            //                   textAlign: TextAlign.right),)
-            //                 ]
-            //               ),
-                          //       SizedBox(
-                          //   height:3
-                          // ), 
-            //               if(listo!.isNotEmpty)
-            //                              Row(
-            //                 children:[
-            //                    Image.network('https://cdn.shopify.com/s/files/1/0810/7350/4566/files/2.png?v=1693233311', width: 60, height: 60),
-            //                    SizedBox(width: 5),
-            //                     Flexible(
-            // child:
-            //                    Text(listo![2]!["value"].toString(),
-            //                     maxLines: 2, // Set maximum lines to 2
-            //                   //overflow: TextOverflow.ellipsis,
-            //                   textAlign: TextAlign.right),)
-            //                 ]
-            //               ),
+                       
                                   ],
                                 ),
                               ),
@@ -290,7 +249,8 @@ class _SimpleLayoutState extends State<SimpleLayout>
                                     child: AnimatedSize(
                                       duration:
                                           const Duration(milliseconds: 300),
-                                      child: ProductCommonInfo(
+                                      child: 
+                                      ProductCommonInfo(
                                         product: widget.product,
                                         isLoading: widget.isLoading,
                                         wrapSliver: false,
@@ -323,7 +283,8 @@ class _SimpleLayoutState extends State<SimpleLayout>
                                         padding: const EdgeInsets.symmetric(
                                           horizontal: 15.0,
                                         ),
-                                        child: Column(
+                                        child: 
+                                        Column(
                                           children: [
                                             
                                             Services()

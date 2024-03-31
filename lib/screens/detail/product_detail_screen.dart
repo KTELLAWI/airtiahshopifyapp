@@ -77,36 +77,36 @@ class ProductDetailScreen extends StatefulWidget {
                 },
               ),
 
-            /// Share feature not supported in Strapi.
-            if (!ServerConfig().isStrapi && !ServerConfig().isNotion)
-              ListTile(
-                title:
-                    Text(S.of(modalContext).share, textAlign: TextAlign.center),
-                onTap: () {
-                  Navigator.of(context).pop();
-                  var url = product?.permalink;
-                  if (url?.isNotEmpty ?? false) {
-                    unawaited(
-                      FlashHelper.message(
-                        context,
-                        message: S.of(context).generatingLink,
-                        duration: const Duration(seconds: 1),
-                      ),
-                    );
-                    Services().firebase.shareDynamicLinkProduct(
-                          itemUrl: url,
-                        );
-                  } else {
-                    unawaited(
-                      FlashHelper.errorMessage(
-                        context,
-                        message: S.of(context).failedToGenerateLink,
-                        duration: const Duration(seconds: 1),
-                      ),
-                    );
-                  }
-                },
-              ),
+            /// Share feature not supported in Strapi. firebase is stopped
+            // if (!ServerConfig().isStrapi && !ServerConfig().isNotion)
+            //   ListTile(
+            //     title:
+            //         Text(S.of(modalContext).share, textAlign: TextAlign.center),
+            //     onTap: () {
+            //       Navigator.of(context).pop();
+            //       var url = product?.permalink;
+            //       if (url?.isNotEmpty ?? false) {
+            //         unawaited(
+            //           FlashHelper.message(
+            //             context,
+            //             message: S.of(context).generatingLink,
+            //             duration: const Duration(seconds: 1),
+            //           ),
+            //         );
+            //         Services().firebase.shareDynamicLinkProduct(
+            //               itemUrl: url,
+            //             );
+            //       } else {
+            //         unawaited(
+            //           FlashHelper.errorMessage(
+            //             context,
+            //             message: S.of(context).failedToGenerateLink,
+            //             duration: const Duration(seconds: 1),
+            //           ),
+            //         );
+            //       }
+            //     },
+            //   ),
             Container(
               height: 1,
               decoration: const BoxDecoration(color: kGrey200),

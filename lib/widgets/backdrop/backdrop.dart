@@ -380,19 +380,19 @@ class _BackdropState extends State<Backdrop>
               },
             ),
             actions: <Widget>[
-              /// Share product category by dynamic link
-              if (firebaseDynamicLinkConfig['isEnabled'] &&
-                  ServerConfig().isWooType &&
-                  !ServerConfig().isListingType &&
-                  !widget.isBlog)
-                IconButton(
-                  icon: Icon(
-                    Icons.share,
-                    size: 18.0,
-                    color: labelColor,
-                  ),
-                  onPressed: () => widget.onTapShareButton?.call(),
-                ),
+              /// Share product category by dynamic link stopped by firebase
+              // if (firebaseDynamicLinkConfig['isEnabled'] &&
+              //     ServerConfig().isWooType &&
+              //     !ServerConfig().isListingType &&
+              //     !widget.isBlog)
+              //   IconButton(
+              //     icon: Icon(
+              //       Icons.share,
+              //       size: 18.0,
+              //       color: labelColor,
+              //     ),
+              //     onPressed: () => widget.onTapShareButton?.call(),
+              //   ),
               if (widget.showFilter)
                 IconButton(
                     icon: AnimatedIcon(
