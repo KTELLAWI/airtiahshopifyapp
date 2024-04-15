@@ -176,9 +176,9 @@
             android:name="com.facebook.sdk.ClientToken"
             android:value="${facebookClientToken}" />
 
-        <meta-data
+        <!-- <meta-data
                 android:name="com.inspireui.ENVATO_PURCHASE_CODE"
-                android:value="${envatoPurchaseCode}" />
+                android:value="${envatoPurchaseCode}" /> -->
 
 <!--        Enable to support Audio Feature-->
 <!--        <service-->
